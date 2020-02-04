@@ -25,6 +25,10 @@ let createEmployeeRecords = function(arr){
   return arr.map(el => createEmployeeRecord(el))
 }
 
+let createTimeInEvent = function(obj, dateStamp){
+  
+}
+
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date
