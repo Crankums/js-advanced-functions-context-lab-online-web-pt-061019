@@ -28,7 +28,7 @@ let createEmployeeRecords = function(arr){
 let createTimeInEvent = function(dateStamp){
   let [date, hour] = dateStamp.split(' ')
   this.timeInEvents.push = {
-    type: "TimeIn"
+    type: "TimeIn",
     hour,
     date
   }
