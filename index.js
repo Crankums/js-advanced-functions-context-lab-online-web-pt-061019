@@ -59,7 +59,7 @@ let wagesEarnedOnDate = function(date){
 }
 
 let payrollExpense = function(){
-  
+
 }
 
 let allWagesFor = function () {
@@ -77,7 +77,7 @@ let allWagesFor = function () {
 const findEmployeeByFirstName = function (srcArray, firstName) {
       return srcArray.find(el => el.firstName === firstName)
   }
-  
+
   const calculatePayroll = function(recArr) {
     return recArr.reduce((memo, rec) => memo + allWagesFor.call(rec), 0)
   }
