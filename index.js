@@ -58,6 +58,10 @@ let wagesEarnedOnDate = function(date){
   return wages
 }
 
+let payrollExpense = function(){
+  
+}
+
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date
@@ -69,3 +73,11 @@ let allWagesFor = function () {
 
     return payable
 }
+
+const findEmployeeByFirstName = function (srcArray, firstName) {
+      return srcArray.find(el => el.firstName === firstName)
+  }
+  
+  const calculatePayroll = function(recArr) {
+    return recArr.reduce((memo, rec) => memo + allWagesFor.call(rec), 0)
+  }
