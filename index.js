@@ -35,6 +35,16 @@ let createTimeInEvent = function(dateStamp){
   return this
 }
 
+let createTimeOutEvent = function(dateStamp){
+  let [date, hour] = dateStamp.split(' ')
+  this.timeOutEvents.push({
+    type: "TimeOut",
+    hour: parseInt(hour, 10),
+    date
+  })
+  return this
+}
+
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date
