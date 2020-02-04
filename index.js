@@ -22,7 +22,7 @@ let createEmployeeRecord = function(arr){
 }
 
 let createEmployeeRecords = function(arr){
-  arr.map(el => createEmployeeRecord(el))
+  return arr.map(el => createEmployeeRecord(el))
 }
 
 let allWagesFor = function () {
