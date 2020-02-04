@@ -26,7 +26,7 @@ let createEmployeeRecords = function(arr){
 }
 
 let createTimeInEvent = function(obj, dateStamp){
-  
+
 }
 
 let allWagesFor = function () {
