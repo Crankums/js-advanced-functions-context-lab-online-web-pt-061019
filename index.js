@@ -22,7 +22,7 @@ let createEmployeeRecord = function(arr){
 }
 
 let createEmployeeRecords = function(arr){
-  
+
 }
 
 let allWagesFor = function () {
