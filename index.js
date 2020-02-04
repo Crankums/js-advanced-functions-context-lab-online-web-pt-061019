@@ -10,7 +10,7 @@
  */
 
 let createEmployeeRecord = function(arr){
-  return obj = {
+  let obj = {
     firstName: arr[0],
     familyName: arr[1],
     title: arr[2],
@@ -18,6 +18,7 @@ let createEmployeeRecord = function(arr){
     timeInEvents: [],
     timeOutEvents: []
   }
+  return obj
 }
 
 let allWagesFor = function () {
