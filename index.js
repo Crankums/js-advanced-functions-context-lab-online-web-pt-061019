@@ -53,7 +53,9 @@ let hoursWorkedOnDate = function(date) {
     return (clockOut.hour - clockIn.hour) / 100
   }
 
-
+let wagesEarnedOnDate = function(date){
+  return wages = hoursWorkedOnDate.call(this, date) * this.payPerHour
+}
 
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
