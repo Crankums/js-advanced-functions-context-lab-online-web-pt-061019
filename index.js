@@ -54,7 +54,8 @@ let hoursWorkedOnDate = function(date) {
   }
 
 let wagesEarnedOnDate = function(date){
-  return wages = hoursWorkedOnDate.call(this, date) * this.payPerHour
+  let wages = hoursWorkedOnDate.call(this, date) * this.payPerHour
+  return wages
 }
 
 let allWagesFor = function () {
